@@ -1,4 +1,5 @@
 import styles from "../styles/About.module.css";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -10,8 +11,8 @@ const About = () => {
         websites to learn more about me.
       </h1>
       <div className={styles.imageDivDisc}>
-        <img
-          src="profile-picture.png"
+        <Image
+          src="/profile-picture.png"
           width={323}
           height={323}
           alt="Rujhan's picture"
