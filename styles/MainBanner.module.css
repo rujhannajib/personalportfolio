@@ -1,0 +1,73 @@
+.mainbannerdiv {
+  min-height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.maintitle {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 6rem;
+  line-height: 117px;
+
+  color: #fffffe;
+}
+.mainslogan {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.25rem ;
+  line-height: 44px;
+  /* identical to box height */
+  text-align: center;
+  color: #ffffff;
+}
+.bubblediv {
+  position: relative;
+  margin: 30px 0 30px 0;
+  width: 100%;
+  height: 140px;
+}
+.bubble {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex; /* or inline-flex */
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem ;
+  border: 3px solid white;
+  position: absolute;
+  left: 90px;
+  transition: all 0.3s ease 0s;  
+}
+
+.bubble:hover{
+  transform: scale(1.5);
+}
+
+.contacttitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem ;
+  line-height: 44px;
+  /* identical to box height */
+  color: #ffffff;
+}
+
+.contactlist {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contactchild {
+  list-style-type: none;
+  /* width: 37px;
+  height: 37px; */
+  font-size: 2.3125rem ;
+}
+.contactchild:hover{
+  cursor: pointer;
+}

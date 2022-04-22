@@ -1,0 +1,32 @@
+.skillsDiv {
+  width: 100%;
+  /* display: flex;
+  flex: column; */
+  margin: 40px 0 40px;
+  height: auto;
+}
+
+.rowSkills {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.whiteBox {
+  width: 241px;
+  height: 187px;
+  margin: 10px;
+  background: #ffffff;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+styles.iconStyles {
+  color: rgba(57, 146, 195, 1);
+  height: 134px;
+  width: 134px;
+}

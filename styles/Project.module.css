@@ -1,0 +1,85 @@
+.projectDiv {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0 40px 0;
+  height: fit-content;
+}
+.projectButtonDiv {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.projectButton {
+  background: #16161a;
+  border: 3px solid #fffffe;
+  box-sizing: border-box;
+  border-radius: 30px;
+  width: 355px;
+  height: 68px;
+  margin: 10px;
+  color: #fffffe;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 44px;
+}
+.projectDetailDiv {
+  width: 95vw;
+  height: 465px;
+  background: #fffffe;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 15px auto 15px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.detailTitle {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: #000000;
+}
+.detailDesc {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 39px;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
+}
+.projectLinkButton,
+.githubLinkButton {
+  background: #16161a;
+  border-radius: 30px;
+  width: fit-content;
+  height: 37px;
+  color: #ffffff;
+  margin: 10px 5px 10px 5px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 10px;
+  border: none;
+}
+.projectButton:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.3s ease 0s;
+  background: #ffffff;
+  color: #16161a;
+}
+.noProjectTitle {
+  color: #16161a;
+}
+.detailProjectButton {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

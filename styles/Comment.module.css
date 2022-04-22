@@ -1,0 +1,48 @@
+.commentDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px 0 30px 0;
+  /* align-items: center; */
+  height: fit-content;
+  position: relative;
+}
+.mainTitle {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 6rem ;
+  line-height: 117px;
+  /* identical to box height */
+  margin: 10px auto 10px auto;
+  color: #ffffff;
+  text-align: center;
+}
+.chatBox {
+  width: 60vw;
+  height: 50vh;
+  border-radius: 45px;
+  margin: 10px auto 10px auto;
+  padding: 10px 25px 10px 25px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  resize: none;
+  color: #000000;
+}
+.buttonDiv {
+  width: 60%;
+  margin: 0 auto 0 auto;
+}
+.sendButton {
+  background-color: transparent;
+  border: none;
+  width: 125px;
+  height: 59px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  margin: 0 auto 0 auto;
+  float: right;
+}
