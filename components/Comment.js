@@ -7,13 +7,17 @@ const Comment = () => {
     setCommentText((commentText) => e.target.value);
   };
   const sendMessage = async () => {
-    try {
-      const response = await axios.get(
-        `https://api.telegram.org/bot5152376088:AAFcWfvPJw1AW2-SW-PNOeik2ffxRhbVnfY/sendMessage?chat_id=@portfoliocomment&text=${commentText}`
-      );
-      setCommentText("");
-    } catch (err) {
-      setCommentText(err.message);
+    if (commentText == "") {
+      alert("Write something first!");
+    } else {
+      try {
+        const response = await axios.get(
+          `https://api.telegram.org/bot5152376088:AAFcWfvPJw1AW2-SW-PNOeik2ffxRhbVnfY/sendMessage?chat_id=@portfoliocomment&text=${commentText}`
+        );
+        setCommentText("");
+      } catch (err) {
+        setCommentText(err.message);
+      }
     }
   };
   return (
