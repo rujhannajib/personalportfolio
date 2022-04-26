@@ -8,13 +8,14 @@
 .aboutDesc {
   font-style: normal;
   font-weight: 800;
-  font-size: 2rem ;
+  font-size: 1.5rem ;
   line-height: 49px;
   text-align: justify;
   width: 70%;
   color: #ffffff;
   margin-left: 25px;
   flex: 0.6;
+  text-justify: auto;
 }
 .imageDivDisc {
   margin: 5px;
