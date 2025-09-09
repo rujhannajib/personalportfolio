@@ -5,10 +5,9 @@ const About = () => {
   return (
     <div className={styles.aboutContainer} id="about" data-aos="fade-up">
       <h1 className={styles.aboutDesc}>
-        Hello, my name is Rujhan and I am a self-taught programmer enrolled in a
-        pre-university program. I enjoy programming because it allows me to
-        create something useful out of nothing. Please visit my personal
-        websites to learn more about me.
+        Hi, I’m Rujhan, a senior at Penn State. Welcome to the refreshed version of my portfolio. 
+        A lot has changed recently, but my passion for leveraging technology to build a better future remains as strong as ever. 
+        Here, you’ll find my past achievements, future aspirations, and a rare glimpse into my life.
       </h1>
       <div className={styles.imageDivDisc}>
         <Image

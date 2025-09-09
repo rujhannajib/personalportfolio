@@ -12,12 +12,12 @@ import Link from "next/link";
 const MainBanner = () => {
   return (
     <div className={styles.mainbannerdiv}>
-      <h1 className={styles.maintitle}>JanjibDEV</h1>
-      <p className={styles.mainslogan}>Developer | Designer | Student</p>
+      <h1 className={styles.maintitle}>Rujhan Najib</h1>
+      <p className={styles.mainslogan}>CS + Math @ PSU | Former Intern @ MARA, NUS, Nittany AI Advance</p>
       <div className={styles.bubblediv}>
         <Link
-          href="Rujhan Najib's Resume.pdf"
-          download="Rujhan Najib's Resume.pdf"
+          href="Resume_2025.pdf"
+          download="Resume_2025.pdf"
         >
           <div className={styles.bubble}>Download Resume </div>
         </Link>
@@ -26,13 +26,22 @@ const MainBanner = () => {
         <h1 className={styles.contacttitle}>Connect with me!</h1>
         <ul className={styles.contactlist}>
           <li className={styles.contactchild}>
+            <a 
+              href="https://www.linkedin.com/in/rujhan-najib" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
             <FontAwesomeIcon icon={faLinkedin} style={{ color: "white" }} />
+            </a>
           </li>
           <li className={styles.contactchild}>
+            <a 
+              href="https://github.com/rujhannajib" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
             <FontAwesomeIcon icon={faGithub} style={{ color: "white" }} />
-          </li>
-          <li className={styles.contactchild}>
-            <FontAwesomeIcon icon={faInstagram} style={{ color: "white" }} />
+            </a>
           </li>
         </ul>
       </div>
