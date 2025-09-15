@@ -1,24 +1,26 @@
 .aboutContainer {
   display: flex;
+  flex-direction: column;
   width: 100%;
-  height: fit-content;
+  min-height: 80vh;
   flex-wrap: wrap;
-  margin: 40px 0 40px 0;
+  /* margin: 40px 0 40px 0; */
+  align-items: center;
 }
 .aboutDesc {
   font-style: normal;
   font-weight: 800;
-  font-size: 1.5rem ;
+  font-size: clamp(14px, 2vw, 20px) ;
   line-height: 49px;
   text-align: justify;
   width: 70%;
   color: #ffffff;
-  margin-left: 25px;
+  margin-top: 25px;
   flex: 0.6;
   text-justify: auto;
 }
 .imageDivDisc {
-  margin: 5px;
+  /* margin: 5px 5px 5px 5px; */
   flex: 0.4;
   display: flex;
   align-items: center;

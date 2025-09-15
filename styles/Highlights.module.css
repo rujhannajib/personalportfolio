@@ -1,0 +1,19 @@
+.parentDiv{
+    min-height: 80vh;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.highDiv {
+  min-height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-left: ; */
+}
+.highTitle{
+    text-align: center;
+    align-items: center;
+}
+.items{
+    margin: 1rem;
+}
