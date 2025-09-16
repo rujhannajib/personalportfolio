@@ -1,10 +1,11 @@
 .parentDiv{
     min-height: 80vh;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
 }
 .highDiv {
-  min-height: 80vh;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -16,4 +17,15 @@
 }
 .items{
     margin: 1rem;
+}
+.logoDiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 600px) {
+  .logoDiv{
+    display: None;
+  }
+  
 }
