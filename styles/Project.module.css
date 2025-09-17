@@ -19,7 +19,7 @@
   margin: 10px;
   color: #fffffe;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 400;
   font-size: 1.5rem;
   line-height: 44px;
 }
@@ -82,4 +82,20 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+.projectTitle{
+    text-align: center;
+    align-items: center;
+}
+.projectBox{
+  background-color: #fffffe;
+  color: #000000;
+  width: 80%;
+  /* align-items: center; */
+  height: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }

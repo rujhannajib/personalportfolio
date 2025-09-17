@@ -14,8 +14,8 @@ export default function Home() {
       <MainBanner />
       <About />
       <Highlights />
-      <Skills />
       <Project />
+      <Skills />
       <Comment />
     </div>
   );
